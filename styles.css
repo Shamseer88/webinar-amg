@@ -4,3 +4,164 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
+
+:root {
+  --main-blue: #01005d;
+}
+
+/* Hero section Styling */
+.hero-section {
+  width: 75%;
+  background-image: url("./images/hero-image.png");
+  margin: 4rem auto 4rem auto;
+  padding: 6rem 5rem;
+  background-size: cover;
+}
+
+.hero-top h1 {
+  color: var(--main-blue);
+  font-family: "Diodrum Cyrillic";
+  font-weight: 400;
+  font-size: 50px;
+  margin-top: 2rem;
+}
+.hero-top h1 span {
+  font-family: "Diodrum Cyrillic";
+  font-size: 50px;
+  font-weight: bold;
+}
+
+/* Schedule section styling */
+.schedule {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.date {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  font-size: 30px;
+}
+.date p {
+  color: var(--main-blue);
+  font-family: "Diodrum Cyrillic";
+}
+.date p span {
+  color: var(--main-blue);
+  font-family: "Diodrum Cyrillic";
+  font-weight: 500;
+}
+.time {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  font-size: 30px;
+}
+.time p {
+  color: var(--main-blue);
+  font-family: "Diodrum Cyrillic";
+}
+.time p span {
+  color: var(--main-blue);
+  font-family: "Diodrum Cyrillic";
+  font-weight: 500;
+}
+
+/* Button div styling */
+.hero-bottom {
+  margin-top: 4rem;
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+}
+.button-div button {
+  background-color: var(--main-blue);
+  color: #fff;
+  font-family: "Diodrum Cyrillic";
+  font-weight: bold;
+  font-size: 30px;
+  border: none;
+  outline: none;
+  padding: 2rem 6rem;
+  border-radius: 74px;
+  cursor: pointer;
+}
+.speaker-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+.speaker-details h3 {
+  font-family: "Diodrum Cyrillic";
+  color: var(--main-blue);
+  font-size: 25px;
+}
+.speaker-details button {
+  margin-left: auto;
+  background-color: #ff671f;
+  border: none;
+  outline: none;
+  font-family: "Diodrum Cyrillic";
+  font-weight: 500;
+  padding: 1rem 2rem;
+  margin-top: 1rem;
+  border-radius: 30px;
+  font-size: 22px;
+  cursor: pointer;
+}
+.speaker {
+  color: var(--main-blue);
+  font-family: "Diodrum Cyrillic";
+  font-weight: 400;
+}
+.qualification {
+  font-family: "Diodrum Cyrillic";
+  font-weight: 300;
+  font-size: 18px;
+}
+/* Diodrum Cyrillic Custom Font*/
+@font-face {
+  font-family: "Diodrum Cyrillic";
+  src: url("/Diodrum-Cyrillic//DiodrumCyrillic-Light.woff"),
+    url("/Diodrum-Cyrillic/DiodrumCyrillic-Light.woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Diodrum Cyrillic";
+  src: url("/Diodrum-Cyrillic//DiodrumCyrillic-Regular.woff"),
+    url("/Diodrum-Cyrillic/DiodrumCyrillic-Regular.woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Diodrum Cyrillic";
+  src: url("/Diodrum-Cyrillic//DiodrumCyrillic-Medium.woff"),
+    url("/Diodrum-Cyrillic/DiodrumCyrillic-Medium.woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Diodrum Cyrillic";
+  src: url("/Diodrum-Cyrillic//DiodrumCyrillic-Bold.woff"),
+    url("/Diodrum-Cyrillic/DiodrumCyrillic-Bold.woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Diodrum Cyrillic";
+  src: url("/Diodrum-Cyrillic//DiodrumCyrillic-Semibold.woff"),
+    url("/Diodrum-Cyrillic/DiodrumCyrillic-Semibold.woff2");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Diodrum Cyrillic";
+  src: url("/Diodrum-Cyrillic//DiodrumCyrillic-Extralight.woff"),
+    url("/Diodrum-Cyrillic/DiodrumCyrillic-Extralight.woff2");
+  font-weight: 200;
+  font-style: normal;
+}
