@@ -42,13 +42,13 @@ p {
 
 .hero-top h1 {
   color: var(--main-blue);
-  font-family: "Diodrum Cyrillic";
+  font-family: "Diodrum Cyrillic", sans-serif;
   font-weight: 400;
   font-size: 50px;
   margin-top: 35px;
 }
 .hero-top h1 span {
-  font-family: "Diodrum Cyrillic";
+  font-family: "Diodrum Cyrillic", sans-serif;
   font-size: 50px;
   font-weight: bold;
 }
@@ -68,11 +68,11 @@ p {
 }
 .date p {
   color: var(--main-blue);
-  font-family: "Diodrum Cyrillic";
+  font-family: "Diodrum Cyrillic", sans-serif;
 }
 .date p span {
   color: var(--main-blue);
-  font-family: "Diodrum Cyrillic";
+  font-family: "Diodrum Cyrillic", sans-serif;
   font-weight: 500;
 }
 .time {
@@ -83,11 +83,11 @@ p {
 }
 .time p {
   color: var(--main-blue);
-  font-family: "Diodrum Cyrillic";
+  font-family: "Diodrum Cyrillic", sans-serif;
 }
 .time p span {
   color: var(--main-blue);
-  font-family: "Diodrum Cyrillic";
+  font-family: "Diodrum Cyrillic", sans-serif;
   font-weight: 500;
 }
 
@@ -101,7 +101,7 @@ p {
 .register-btn {
   background-color: var(--main-blue);
   color: #fff;
-  font-family: "Diodrum Cyrillic";
+  font-family: "Diodrum Cyrillic", sans-serif;
   font-weight: bold;
   font-size: 30px;
   border: none;
@@ -120,7 +120,7 @@ p {
   margin-top: 2rem;
 }
 .speaker-details h3 {
-  font-family: "Diodrum Cyrillic";
+  font-family: "Diodrum Cyrillic", sans-serif;
   color: var(--main-blue);
   font-size: 25px;
 }
@@ -129,7 +129,7 @@ p {
   background-color: #ff671f;
   border: none;
   outline: none;
-  font-family: "Diodrum Cyrillic";
+  font-family: "Diodrum Cyrillic", sans-serif;
   font-weight: 500;
   padding: 1rem 2rem;
   margin-top: 1rem;
@@ -139,11 +139,11 @@ p {
 }
 .speaker {
   color: var(--main-blue);
-  font-family: "Diodrum Cyrillic";
+  font-family: "Diodrum Cyrillic", sans-serif;
   font-weight: 400;
 }
 .qualification {
-  font-family: "Diodrum Cyrillic";
+  font-family: "Diodrum Cyrillic", sans-serif;
   font-weight: 300;
   font-size: 18px;
 }
