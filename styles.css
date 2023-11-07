@@ -342,29 +342,29 @@ p {
 /* Diodrum Cyrillic Custom Font*/
 @font-face {
   font-family: "Diodrum Cyrillic";
-  src: url("/Diodrum-Cyrillic//DiodrumCyrillic-Light.woff"),
-    url("/Diodrum-Cyrillic/DiodrumCyrillic-Light.woff2");
+  src: url("https://github.com/Shamseer88/webinar-amg/blob/main/Diodrum-Cyrillic/DiodrumCyrillic-Light.woff"),
+    url("https://github.com/Shamseer88/webinar-amg/blob/main/Diodrum-Cyrillic/DiodrumCyrillic-Light.woff2");
   font-weight: 300;
   font-style: normal;
 }
 @font-face {
   font-family: "Diodrum Cyrillic";
-  src: url("/Diodrum-Cyrillic//DiodrumCyrillic-Regular.woff"),
-    url("/Diodrum-Cyrillic/DiodrumCyrillic-Regular.woff2");
+  src: url("https://github.com/Shamseer88/webinar-amg/blob/main/Diodrum-Cyrillic/DiodrumCyrillic-Regular.woff"),
+    url("https://github.com/Shamseer88/webinar-amg/blob/main/Diodrum-Cyrillic/DiodrumCyrillic-Regular.woff2");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: "Diodrum Cyrillic";
-  src: url("/Diodrum-Cyrillic//DiodrumCyrillic-Medium.woff"),
-    url("/Diodrum-Cyrillic/DiodrumCyrillic-Medium.woff2");
+  src: url("https://github.com/Shamseer88/webinar-amg/blob/main/Diodrum-Cyrillic/DiodrumCyrillic-Medium.woff"),
+    url("https://github.com/Shamseer88/webinar-amg/blob/main/Diodrum-Cyrillic/DiodrumCyrillic-Medium.woff2");
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
   font-family: "Diodrum Cyrillic";
-  src: url("/Diodrum-Cyrillic//DiodrumCyrillic-Bold.woff"),
-    url("/Diodrum-Cyrillic/DiodrumCyrillic-Bold.woff2");
+  src: url("https://github.com/Shamseer88/webinar-amg/blob/main/Diodrum-Cyrillic/DiodrumCyrillic-Bold.woff"),
+    url("https://github.com/Shamseer88/webinar-amg/blob/main/Diodrum-Cyrillic/DiodrumCyrillic-Bold.woff2");
   font-weight: bold;
   font-style: normal;
 }
@@ -377,8 +377,8 @@ p {
 }
 @font-face {
   font-family: "Diodrum Cyrillic";
-  src: url("/Diodrum-Cyrillic//DiodrumCyrillic-Extralight.woff"),
-    url("/Diodrum-Cyrillic/DiodrumCyrillic-Extralight.woff2");
+  src: url("https://github.com/Shamseer88/webinar-amg/blob/main/Diodrum-Cyrillic/DiodrumCyrillic-Extralight.woff"),
+    url("https://github.com/Shamseer88/webinar-amg/blob/main/Diodrum-Cyrillic/DiodrumCyrillic-Extralight.woff2");
   font-weight: 200;
   font-style: normal;
 }
