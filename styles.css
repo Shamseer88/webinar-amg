@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -9,9 +10,30 @@
   --main-blue: #01005d;
 }
 
+main {
+  width: 75%;
+  margin: auto;
+}
+
+section {
+  /* width: 75%; */
+  margin: 4rem auto;
+}
+
+h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  line-height: 40px;
+}
+
 /* Hero section Styling */
 .hero-section {
-  width: 75%;
   background-image: url("./images/hero-image.png");
   margin: 4rem auto 4rem auto;
   padding: 6rem 5rem;
@@ -23,7 +45,7 @@
   font-family: "Diodrum Cyrillic";
   font-weight: 400;
   font-size: 50px;
-  margin-top: 2rem;
+  margin-top: 35px;
 }
 .hero-top h1 span {
   font-family: "Diodrum Cyrillic";
@@ -33,14 +55,14 @@
 
 /* Schedule section styling */
 .schedule {
-  margin-top: 5rem;
+  margin-top: 102px;
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 18px;
 }
 .date {
   display: flex;
-  gap: 2rem;
+  gap: 24px;
   align-items: center;
   font-size: 30px;
 }
@@ -55,7 +77,7 @@
 }
 .time {
   display: flex;
-  gap: 2rem;
+  gap: 24px;
   align-items: center;
   font-size: 30px;
 }
@@ -71,12 +93,12 @@
 
 /* Button div styling */
 .hero-bottom {
-  margin-top: 4rem;
+  margin-top: 25px;
   display: flex;
-  align-self: center;
+  align-items: center;
   justify-content: space-between;
 }
-.button-div button {
+.register-btn {
   background-color: var(--main-blue);
   color: #fff;
   font-family: "Diodrum Cyrillic";
@@ -84,9 +106,12 @@
   font-size: 30px;
   border: none;
   outline: none;
-  padding: 2rem 6rem;
+  padding: 1.5rem 5rem;
   border-radius: 74px;
   cursor: pointer;
+}
+.btn-top {
+  margin-top: 3rem;
 }
 .speaker-details {
   display: flex;
@@ -121,6 +146,198 @@
   font-family: "Diodrum Cyrillic";
   font-weight: 300;
   font-size: 18px;
+}
+
+/* Join our pain management section styling */
+.join {
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+.join-right {
+  margin-left: 4rem;
+}
+.join-right h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 40px;
+  line-height: 60px;
+  margin-bottom: 2rem;
+}
+.join-right p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  line-height: 40px;
+}
+
+/* Join free section styling */
+.join-free {
+  padding: 0 5rem;
+}
+.join-free p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 40px;
+  line-height: 60px;
+}
+.join-free span {
+  color: #c40001;
+  font-weight: bold;
+}
+
+/* Agenda section Styling */
+.agenda-heading {
+  padding-left: 5rem;
+  margin-bottom: 2rem;
+  font-family: "Open Sans", sans-serif;
+  font-size: 40px;
+  line-height: 60px;
+}
+.agenda-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5rem;
+}
+.agenda-item {
+  background-color: #f5f5f5;
+  padding: 5rem;
+}
+.agenda-item-heading {
+  margin: 2rem 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 40px;
+  line-height: 50px;
+}
+.agenda-item-para {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  line-height: 40px;
+}
+@media (max-width: 768px) {
+  .agenda-grid {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 480px) {
+  .agenda-item {
+    padding: 10px;
+  }
+}
+
+/* Q&A session section styling */
+.qa {
+  display: flex;
+  padding: 5rem;
+  background-color: #f5f5f5;
+  align-items: center;
+  justify-content: space-between;
+}
+.qa-right {
+  margin-left: 5rem;
+}
+.qa-right h2 {
+  margin-bottom: 1rem;
+}
+
+/* Registration section styling */
+.registration {
+  display: flex;
+  align-items: center;
+  background-color: #c40001;
+}
+.registration-right {
+  background-color: #c40001;
+  padding: 0 7rem;
+}
+.registration-right h2,
+.registration-right p {
+  color: #fff;
+  margin-bottom: 2rem;
+}
+.registration-right span {
+  font-weight: 600;
+}
+
+/* who-should-attend section styling */
+.who-should-attend {
+  background-color: var(--main-blue);
+  padding: 5rem;
+}
+.who-should-attend p {
+  color: #fff;
+}
+.who-should-attend h2 {
+  color: #fff;
+  margin: 2rem 0;
+}
+
+/* Video section styling */
+.video h2 {
+  padding-left: 5rem;
+  margin-bottom: 2rem;
+}
+
+/* TESTIMONIAL SECTION STYLING */
+.testimonial-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.testimonial-heading h2 {
+  padding-left: 5rem;
+  margin-bottom: 2rem;
+}
+.testimonial-arrows img {
+  margin-left: 2rem;
+  cursor: pointer;
+}
+
+.testimonial-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+}
+.testimonial-grid-item {
+  padding: 5rem;
+  background-color: #f5f5f5;
+}
+.person {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+.person-details h3 {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 50px;
+}
+@media (max-width: 768px) {
+  .testimonial-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+/* LOGOS SECTION STYLING */
+.logos {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.voltarol {
+  border-right: 1px solid black;
+}
+.logos-middle-images {
+  display: flex;
+}
+.logos-item p {
+  font-size: 20px;
+  line-height: 60px;
+  font-weight: bold;
+}
+.logos-item h3 {
+  font-size: 28px;
+  line-height: 60px;
+  font-weight: bold;
 }
 /* Diodrum Cyrillic Custom Font*/
 @font-face {
